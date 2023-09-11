@@ -1,0 +1,17 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "In this project i'm going to build a restaurant page, using npm, modules, and webpack functionalities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cli": "^1.0.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
