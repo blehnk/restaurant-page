@@ -6,6 +6,8 @@ export const about = document.createElement('button')
 export const menu = document.createElement('button')
 const dummy = document.createElement('div')
 
+dummy.innerText = "Is The Cafe Even OPEN?!"
+dummy.classList.add("dummy")
 
 restName.classList.add('restName')
 content.appendChild(restName)

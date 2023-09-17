@@ -132,4 +132,9 @@ li:nth-child(5) span {
     color: var(--liclr5);
 }
 
+.dummy {
+    font-size: 5rem;
+    text-align: center;
+    color: var(--txtclrH2);
+}
 

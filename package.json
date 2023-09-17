@@ -6,6 +6,7 @@
   "scripts": {
     "watch": "webpack --watch",
     "start": "webpack serve --open",
+    "push": "git subtree push --prefix dist origin gh-pages",
     "build": "webpack"
   },
   "keywords": [],
