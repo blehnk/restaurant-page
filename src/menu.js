@@ -1,18 +1,12 @@
 import { menu } from "./initial"
 
-// const mainContent = document.createElement('div')
-
-// mainContent.classList.add("noShow")
-
-// content.appendChild(mainContent)
-
 export function populatingM() {
     const textArea = document.createElement('div')
     textArea.classList.add("textArea")
     content.appendChild(textArea)
 
     const head = document.createElement('span')
-    head.innerText = "Anxiety Cafe Signature Drinks"
+    head.innerText = "Panic Perch Cafe Signature Drinks"
     textArea.appendChild(head)
 
     const menuLi = document.createElement('ul')
@@ -25,27 +19,26 @@ export function populatingM() {
         menuLi.appendChild(li)
     }
 
-    menuLi.children[0].children[0].innerText = "Tranquilitea Elixir"
-    menuLi.children[0].children[1].innerText = "A soothing blend of chamomile, lavender, and lemon balm, gently sweetened with local honey. Served hot or iced."
+    menuLi.children[0].children[0].innerText = "\n\nFizzing Frenzy Fizz"
+    menuLi.children[0].children[1].innerText = "A sparkling concoction of lemon, lime, and a hint of wild berry, topped with popping candy for an unexpected burst of flavor."
 
-    menuLi.children[1].children[0].innerText = "Zen Garden Matcha Latte"
-    menuLi.children[1].children[1].innerText = "Creamy matcha green tea with a touch of vanilla, topped with frothed almond milk and a sprinkle of edible rose petals."
+    menuLi.children[1].children[0].innerText = "\n\nTickling Tummy Tonic"
+    menuLi.children[1].children[1].innerText = "A fizzy elixir made with ginger, mint, and a splash of seltzer water. Served with a whimsical twisty straw for maximum ticklishness."
 
-    menuLi.children[2].children[0].innerText = "Mood Boosting Smoothie"
-    menuLi.children[2].children[1].innerText = "A refreshing concoction of spinach, banana, berries, and a hint of ginger, blended to perfection. Packed with antioxidants and natural mood enhancers."
+    menuLi.children[2].children[0].innerText = "\n\nBubbling Butterflies Brew"
+    menuLi.children[2].children[1].innerText = "A chamomile and butterfly pea flower tea infusion, served with a side of cotton candy clouds that melt into a sweet, calming potion."
 
-    menuLi.children[3].children[0].innerText = "Serene Lavender Latte"
-    menuLi.children[3].children[1].innerText = "A velvety latte infused with house-made lavender syrup, creating a delicate floral aroma and a sense of calm with every sip."
+    menuLi.children[3].children[0].innerText = "\n\nWhirling Worry Waffle"
+    menuLi.children[3].children[1].innerText = "A crispy waffle tower adorned with a whirlwind of candy-coated chocolates, topped with a dollop of whipped cream, guaranteed to make your heart race with delight."
 
-    menuLi.children[4].children[0].innerText = "Euphoric Espresso Tonic"
-    menuLi.children[4].children[1].innerText = "A unique combination of bold espresso, sparkling tonic water, and a splash of citrus. A zesty and invigorating pick-me-up."
+    menuLi.children[4].children[0].innerText = "\n\nDizzying Dessert Delight"
+    menuLi.children[4].children[1].innerText = "A gravity-defying ice cream sundae featuring a topsy-turvy tower of sprinkles, whipped cream, and a cherry on top, all served on a whimsically tilted plate."
 
     textArea.appendChild(menuLi)
 
     const foot = document.createElement('span')
-    foot.innerText = "All drinks can be customized to your preference of dairy or plant-based milk."
+    foot.innerText = "*All drinks can be customized to your preference of dairy or plant-based milk."
     textArea.appendChild(foot)
 
-
-
+    menuLi.classList.add('menuLi')
 }

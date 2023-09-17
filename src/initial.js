@@ -19,9 +19,9 @@ btn.appendChild(menu)
 
 content.appendChild(btn)
 
-restName.innerText = "ANXIETY CAFE"
-about.innerText = "About"
-menu.innerText = "Menu"
+restName.innerText = "Panic Perch Cafe"
+about.innerText = "what's this for!"
+menu.innerText = "Is this a button?"
 
 content.appendChild(dummy)
 

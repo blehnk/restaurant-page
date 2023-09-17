@@ -1,12 +1,3 @@
-
-// const mainContent = document.createElement('div')
-
-// mainContent.innerText = "hi, this is the about section:)"
-// mainContent.classList.add("noShow")
-
-// content.appendChild(mainContent)
-
-
 import { about } from "./initial"
 
 export function populatingA() {
@@ -14,39 +5,31 @@ export function populatingA() {
     textArea.classList.add("textArea")
     content.appendChild(textArea)
 
-    const textBody = document.createElement('span')
-
     const span = document.createElement('span') 
-    span.innerText = "Welcome to Anxiety Cafe!"
+    span.innerText = "Welcome to Panic Perch Cafe!"
     const p1 = document.createElement('p')
-    p1.innerText = "At Anxiety Cafe, we believe in nourishing not only your body but also your soul. Nestled in the heart of [City/Town], we've created a warm and inviting space where you can find comfort, community, and of course, delicious food."
+    p1.innerText = "At Panic Perch Cafe, we're dedicated to providing an experience that will keep you on the edge of your seat. Nestled in a curious corner of [City/Town], we've designed an environment that challenges your senses and leaves you guessing at every turn."
 
     const p2 = document.createElement('p')
-    p2.innerText = "Our journey began with a simple yet powerful idea: to create a haven for those seeking respite from the hustle and bustle of everyday life. We understand that life can get overwhelming, and sometimes all you need is a place to unwind, reflect, and rejuvenate."
+    p2.innerText = "From our disorienting décor to our menu designed to surprise and intrigue, every visit to Panic Perch is bound to keep your heart racing. Our culinary creations are crafted to defy expectations, taking you on a rollercoaster ride of flavor and texture."
 
     const p3 = document.createElement('p')
-    p3.innerText = "Our carefully curated menu reflects our commitment to providing wholesome, thoughtfully prepared dishes that not only tantalize your taste buds but also promote well-being. We source fresh, local ingredients whenever possible, ensuring that every bite is a testament to our dedication to quality."
+    p3.innerText = "Our team is specially trained to provide service that will keep you guessing. With unexpected twists and turns, you'll never know quite what to expect next. We've turned dining into an adventure, ensuring that every moment at Panic Perch is memorable."
 
     const p4 = document.createElement('p')
-    p4.innerText = "But Anxiety Cafe is more than just a place to enjoy a meal; it's a community hub. We host regular events, workshops, and gatherings aimed at fostering connection and supporting mental health. Our team is passionate about creating an inclusive environment where everyone feels welcome and valued."
+    p4.innerText = "Unpredictable Ambiance, Unforgettable Memories"
 
     const p5 = document.createElement('p')
-    p5.innerText = "Whether you're here for a quiet moment of solitude with a book and a cup of our specialty tea, or you're joining us for a lively conversation over a plate of our signature dishes, know that you're a cherished part of the Anxiety Cafe family."
+    p5.innerText = "At Panic Perch Cafe, we've crafted an atmosphere that keeps you on your toes. Our ever-changing lighting and surreal installations create an environment that blurs the lines between reality and imagination. With each visit, you'll find yourself immersed in a world of surprises, making every moment at Panic Perch a story worth sharing. Whether you're here for the heart-pounding menu or the mind-bending decor, one thing is for sure - you won't leave unchanged."
 
     const p6 = document.createElement('p')
-    p6.innerText = "Thank you for being here. We can't wait to serve you."
+    p6.innerText = "So, if you're looking for an experience that will test your mettle and leave you talking for days, join us at Panic Perch Cafe. Just remember, it's not for the faint of heart."
 
     const p7 = document.createElement('p')
-    p7.innerText = "With warmth and gratitude,"
+    p7.innerText = "Dare to take the plunge?"
 
     const span3 = document.createElement('span')
-    span3.innerText = "Asish"
+    span3.innerText = "blank\nFounder, Panic Perch Cafe"
    
-    const span4 = document.createElement('span')
-    span4.innerText = "Founder, Anxiety Cafe"
-
-    textArea.append(span, p1, p2, p3, p4, p5, p6, p7, span3, span4)
-    textArea.appendChild(textBody)
+    textArea.append(span, p1, p2, p3, p4, p5, p6, p7, span3)
 }
-
-// about.addEventListener('click', populatingA)
